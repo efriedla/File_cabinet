@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   # Authorization
   authenticated :user do 
     root "docs#index", as: "authenticated_root"
-  endg
+  end
 
   # landing page
   root 'welcome#index'
