@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   # landing page
   root 'welcome#index'
+
+  resources :docs
 end
